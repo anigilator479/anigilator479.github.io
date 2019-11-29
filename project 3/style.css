@@ -1,4 +1,4 @@
-header {
+.head {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -19,7 +19,20 @@ header {
 }
 
 .navigation_links li{
-    margin-right: 57px;
+    margin-right: 55px;
+}
+.navigation_links li a:hover{
+    color: #f38181;
+    border-bottom: 3px solid;
+    transition: 0.5s;
+}
+.navigation_links li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #95e1d3;
 }
 .first {
     display: flex;
@@ -41,6 +54,7 @@ header {
     font-weight: 400;
     font-size: 15px;
     color: #b3b3b3;
+    width: 200px;
 }
 
 
@@ -49,7 +63,7 @@ header {
     display: flex;
     align-items: center;
 }
-.team {
+.big_text {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -62,7 +76,7 @@ header {
 }
 
 .logotype {
-    margin: 0px 0px 12pt 180px;
+    margin: 0px 0px 24px 180px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -72,9 +86,9 @@ header {
 
 .work {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
     font-family: 'Kaushan Script', cursive;
     font-style: normal;
     font-weight: 400;
@@ -84,36 +98,23 @@ header {
 
 .strange {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     color: #333333;
-    flex-direction: row;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
 }
-.navigation_links li a{
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    color: #95e1d3;
-}
+
 .line {
     display: flex;
     background-color: #f38181;
     height: 3px;
-    justify-content: center;
-    margin: 10px 800px 20px 800px;
+    margin: 10px 1000px 20px 1000px;
 }
 .image {
-    margin: 0px 20px 20px 20px;
+    margin: 0px 20px 35px 20px;
 }
 
-.navigation_links li a:hover{
-    color: #f38181;
-    border-bottom: 3px solid;
-    transition: 0.3s;
-}
