@@ -11,6 +11,13 @@
     font-size: 14px;
     color: #333333;
 }
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 360px;
+
+}
 .navigation_links {
     display: flex;
     flex-direction: row;
@@ -21,10 +28,29 @@
 .navigation_links li{
     margin-right: 55px;
 }
-.navigation_links li a:hover{
-    color: #f38181;
+.navigation_links li a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+.navigation_links li a:after {
     border-bottom: 3px solid;
-    transition: 0.5s;
+    display: block;
+    color: #f38181;
+    position: absolute;
+    content: "";
+    width: 0;
+    transition: width 0.3s;
+    right: 0;
+    bottom: 0;
+}
+.navigation_links li a:hover:after {
+    width: 100%;
+}
+.navigation_links li a:hover{
+color:#f38181;
+
+    
 }
 .navigation_links li a{
     text-decoration: none;
@@ -57,7 +83,21 @@
     width: 200px;
 }
 
+.mogo{
+    list-style-type: none;
+    margin: 0px 620px 10px 60px;
+    
+}
+.mogo li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #95e1d3;
+    font-size: 30px;
+}
 
+    
 
 .block {
     display: flex;
@@ -67,21 +107,19 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 0px 194px;
+    margin: 0px 195px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     color: #b3b3b3;
+    width: 1000px;
+    padding-left: 300px;
 }
 
 .logotype {
-    margin: 0px 0px 24px 180px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    color: #95e1d3;
-    font-size: 30px;
+    margin: 28px 0px 0px 360px;
+    list-style-type: none;
 }
 
 .work {
@@ -112,9 +150,14 @@
     display: flex;
     background-color: #f38181;
     height: 3px;
-    margin: 10px 800px 20px 800px;
+    margin-left: 1015px;
+    margin-top: 43px;
+    margin-bottom: 45px;
+    width: 60px
+
 }
 .image {
-    margin: 0px 20px 35px 20px;
+    width: 35px;
+    margin: 10px 20px 35px 20px;
 }
 
