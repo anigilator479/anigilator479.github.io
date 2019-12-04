@@ -1,9 +1,4 @@
-.head {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    margin-bottom: 50px;
-}
+
 .title {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -13,20 +8,15 @@
 }
 .navigation{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    margin-right: 360px;
-
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
 .navigation_links {
     display: flex;
+    justify-content:space-between;
     flex-direction: row;
-    justify-content: flex-end;
     list-style-type: none;
-}
-
-.navigation_links li{
-    margin-right: 55px;
+    width: 500px;
 }
 .navigation_links li a {
     display: inline-block;
@@ -42,9 +32,10 @@
     width: 0;
     transition: width 0.3s;
     right: 0;
-    bottom: 0;
+    margin-top: 8px
 }
 .navigation_links li a:hover:after {
+    
     width: 100%;
 }
 .navigation_links li a:hover{
@@ -63,15 +54,12 @@ color:#f38181;
 .first {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    margin: 0px 200px 50px 200px;
+    margin-bottom: 50px;
 }
-
 .second {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    margin: 0px 200px 50px 200px;
+    margin-bottom: 50px;
 }
 
 .text {
@@ -85,7 +73,7 @@ color:#f38181;
 
 .mogo{
     list-style-type: none;
-    margin: 0px 620px 10px 60px;
+    margin: 0px 480px 10px 60px;
     
 }
 .mogo li a{
@@ -107,16 +95,12 @@ color:#f38181;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 0px 195px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     color: #b3b3b3;
-    width: 1000px;
-    padding-left: 300px;
 }
-
 .logotype {
     margin: 28px 0px 0px 360px;
     list-style-type: none;
@@ -147,17 +131,16 @@ color:#f38181;
 }
 
 .line {
-    display: flex;
+    display: block;
     background-color: #f38181;
     height: 3px;
-    margin-left: 1015px;
-    margin-top: 43px;
-    margin-bottom: 45px;
-    width: 60px
-
+    margin: 50px 1000px
+    
 }
 .image {
-    width: 35px;
-    margin: 10px 20px 35px 20px;
+    margin: 0px 20px 26px 20px;
 }
-
+img{
+    width: 32px;
+    height: 32px;
+}
