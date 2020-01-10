@@ -153,10 +153,9 @@ color:#f38181;
 }
 
 .image {
-margin: 0px 0px 27px 0px;
+margin-bottom: 27px;
 justify-content:flex-start;
 align-items:flex-start;
-align-content:flex-start;
 }
 
 .IMG {
@@ -174,18 +173,42 @@ align-content:flex-start;
 .i_am_so_tired {
     width: 200px;
 }
-.developers {
+
+.all {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.info {
+.captions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #e5e5e5;
+    width: 1200px;
+    margin-left: 15%;
+}
+
+.vitya_primi_pj {
     margin: 0px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.foot input {
+    border: 1px solid #e7e7e7;
+    height: 38px;
+    color: #d9d9d9;
+    width: 230px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    left: 5px;
 }
 
 .name {
@@ -196,119 +219,75 @@ align-content:flex-start;
     margin: 30px 0px 15px 0px;
 }
 
-.post {
+.spam {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-style: italic;
     font-size: 15px;
     color: #b3b3b3;
-    margin-bottom: 85px;
+    margin-bottom: 100px;
 }
 
-.credits {
-    border-top: 1px solid #e5e5e5;
-    width: 1200px;
-    margin-left: 13.5%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.credits_info {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #333333;
-}
-
-.credits_info a {
-    color: #f38181;
-    text-decoration: none;
-}
-
-footer input {
-    border: 1px solid #e7e7e7;
-    height: 38px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    font-size: 15px;
-    color: #d9d9d9;
-    width: 230px;
-    position: relative;
-    left: 5px;
-}
 ::-webkit-input-placeholder {
     color: #d9d9d9;
 }
 
-footer button {
-    height: 42px;
-    width: 150px;
-    background-color: #95e1d3;
-    color: #ffffff;
-    border: 0px solid;
+.captions_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #333333;
+}
+
+.captions_text a {
+    color: #f38181;
+    text-decoration: none;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fce38a;
+    width: 56px;
+    height: 56px;
+    border: 1px solid #e77b07
+}
+
+.foot button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
+    height: 40px;
+    width: 150px;
+    background-color: #95e1d3;
+    color: #ffffff;
 }
 
+.michael_fertig{
+    width: 381px;
+    height: 470px;
+    position: relative;
+    background-image: url(./img/Michael\ Fertig.png);
+}
 
 .mathew_dix{
-    width: 380px;
+    width: 381px;
     height: 470px;
     position: relative;
     background-image: url(./img/Matthew\ Dix.png);
 }
 
 .christopher_campbell{
-    width: 380px;
+    width: 381px;
     height: 470px;
     position: relative;
     background-image: url(./img/Christopher\ Campbell.png);
 }
 
-.michael_fertig{
-    width: 380px;
-    height: 470px;
-    position: relative;
-    background-image: url(./img/Michael\ Fertig.png);
-}
-
-.social {
-    background-color: #fce38a;
-    width: 56px;
-    height: 56px;
-    margin-right: 1px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.social_networks :hover {
-    background-color: #95e1d3;
-}
-
-.social_networks {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 470px;
-}
-
-.gradient{
-    position: absolute;
-    left: -10px;
-    bottom: 10px;
-    right: 10px;
-    top: -10px;
-    background-image: linear-gradient(to bottom, rgb(232, 23, 113), rgb(232, 36, 108), rgb(231, 50, 104), rgb(231, 63, 99), rgb(230, 76, 95), rgb(230, 90, 90), rgb(229, 103, 86), rgb(229, 117, 81), rgb(228, 130, 77), rgb(228, 143, 72), rgb(227, 157, 68), rgb(227, 170, 63));
-    opacity: .8;
-    display: none;
-    
+.michael_fertig:hover .gradient{
+    display :block;
 }
 
 .mathew_dix:hover .gradient{
@@ -319,6 +298,25 @@ footer button {
     display :block;
 }
 
-.michael_fertig:hover .gradient{
-    display :block;
+.comunication {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 480px;
+}
+
+.comunication :hover {
+    background-color: #95e1d3;
+}
+
+.gradient{
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    left: -10px;
+    bottom: 10px;
+    background: linear-gradient(90deg, rgba(243,156,140,1) 7%, rgba(249,1,1,1) 35%, rgba(252,176,69,1) 100%);
+    opacity: .8;
+    display: none;
 }
