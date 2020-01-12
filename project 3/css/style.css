@@ -163,14 +163,14 @@ align-items:flex-start;
     height: 32px;
 }
 
-.classs { 
+.flamingo { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.i_am_so_tired {
+.little_block {
     width: 200px;
 }
 
@@ -188,10 +188,10 @@ align-items:flex-start;
     justify-content: space-between;
     border-top: 1px solid #e5e5e5;
     width: 1200px;
-    margin-left: 15%;
+    height: 50px;
 }
 
-.vitya_primi_pj {
+.turtle {
     margin: 0px 15px;
     display: flex;
     flex-direction: column;
@@ -200,7 +200,7 @@ align-items:flex-start;
 
 .foot input {
     border: 1px solid #e7e7e7;
-    height: 38px;
+    height: 30px;
     color: #d9d9d9;
     width: 230px;
     position: relative;
@@ -259,7 +259,7 @@ align-items:flex-start;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
-    height: 40px;
+    height: 38px;
     width: 150px;
     background-color: #95e1d3;
     color: #ffffff;
@@ -269,21 +269,21 @@ align-items:flex-start;
     width: 381px;
     height: 470px;
     position: relative;
-    background-image: url(./img/Michael\ Fertig.png);
+    background-image: url(../img/Matthew_Dix.png);
 }
 
 .mathew_dix{
     width: 381px;
     height: 470px;
     position: relative;
-    background-image: url(./img/Matthew\ Dix.png);
+    background-image: url(../img/Christopher_Campbell.png);
 }
 
 .christopher_campbell{
     width: 381px;
     height: 470px;
     position: relative;
-    background-image: url(./img/Christopher\ Campbell.png);
+    background-image: url(../img/Michael_Fertig.png);
 }
 
 .michael_fertig:hover .gradient{
@@ -306,6 +306,13 @@ align-items:flex-start;
     height: 480px;
 }
 
+.foot{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+  justify-content: center;
+}
+
 .comunication :hover {
     background-color: #95e1d3;
 }
@@ -316,7 +323,7 @@ align-items:flex-start;
     top: -10px;
     left: -10px;
     bottom: 10px;
-    background: linear-gradient(90deg, rgba(243,156,140,1) 7%, rgba(249,1,1,1) 35%, rgba(252,176,69,1) 100%);
+    background-image: linear-gradient(to bottom, rgb(255, 99, 99), rgb(255, 105, 90), rgb(254, 111, 81), rgb(254, 116, 72), rgb(253, 122, 63), rgb(253, 128, 54), rgb(252, 134, 45), rgb(252, 140, 36), rgb(251, 146, 27), rgb(251, 151, 18), rgb(250, 157, 9), rgb(250, 163, 0));
     opacity: .8;
     display: none;
 }
