@@ -321,10 +321,8 @@ align-items:flex-start;
 
 .gradient{
     position: absolute;
-    right: 10px;
-    top: -10px;
-    left: -10px;
-    bottom: 10px;
+    top: -20px;
+    left: -20px;
     background-image: linear-gradient(to bottom, rgb(255, 99, 99), rgb(255, 105, 90), rgb(254, 111, 81), rgb(254, 116, 72), rgb(253, 122, 63), rgb(253, 128, 54), rgb(252, 134, 45), rgb(252, 140, 36), rgb(251, 146, 27), rgb(251, 151, 18), rgb(250, 157, 9), rgb(250, 163, 0));
     opacity: .8;
     display: none;
