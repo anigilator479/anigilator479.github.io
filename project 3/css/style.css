@@ -198,7 +198,7 @@ align-items:flex-start;
     align-items: center;
 }
 
-.foot input {
+.down input {
     border: 1px solid #e7e7e7;
     height: 30px;
     color: #d9d9d9;
@@ -255,7 +255,7 @@ align-items:flex-start;
     border: 1px solid #e77b07
 }
 
-.foot button {
+.down button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 14px;
@@ -306,11 +306,13 @@ align-items:flex-start;
     height: 480px;
 }
 
-.foot{
+.down{
    display: flex;
    flex-direction: row;
    align-items: center;
-  justify-content: center;
+   justify-content: center;
+   input placeholder {
+   margin-left: 15px;}
 }
 
 .comunication :hover {
