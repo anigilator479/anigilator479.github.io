@@ -304,15 +304,14 @@ align-items:flex-start;
     align-items: center;
     justify-content: center;
     height: 480px;
+    width: 380px;
 }
 
 .down{
    display: flex;
    flex-direction: row;
    align-items: center;
-   justify-content: center;
-   input placeholder {
-   margin-left: 15px;}
+  justify-content: center;
 }
 
 .comunication :hover {
@@ -323,7 +322,6 @@ align-items:flex-start;
     position: absolute;
     top: -20px;
     left: -20px;
-    bottom: -10px;
     background-image: linear-gradient(to bottom, rgb(255, 99, 99), rgb(255, 105, 90), rgb(254, 111, 81), rgb(254, 116, 72), rgb(253, 122, 63), rgb(253, 128, 54), rgb(252, 134, 45), rgb(252, 140, 36), rgb(251, 146, 27), rgb(251, 151, 18), rgb(250, 157, 9), rgb(250, 163, 0));
     opacity: .8;
     display: none;
