@@ -76,5 +76,5 @@
 let n=3,
     m=4,
     k;
-    k=Math.sqrt(n**2+m**2)
+    k=Math.sqrt(Math.pow(n,2)+Math.pow (m,2))
     console.log(k)
