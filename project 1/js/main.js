@@ -12,10 +12,10 @@
 
 
 2
-// let k1=5px,
-//     k2=12qwe74,
-//     k3=12.46qwe79,
-//     k4=qweqwe;
+// let k1="5px",
+//     k2="12qwe74",
+//     k3="12.46qwe79",
+//     k4="qweqwe";
 
 // console.log(Number.parseFloat(k1)); 
 // console.log(Number.parseFloat(k2));
@@ -39,11 +39,11 @@
 6
 // const num=20;
 // const result = num > 10 && num < 30;
-// console.log(result)
+// console.log(result);
 7
 // const num=40;
 // const result = num < 10 || num > 30;
-// console.log(result)
+// console.log(result);
 8
 // console.log(!true); 
 // console.log(!false);
