@@ -78,7 +78,7 @@
 8
 let p=prompt(""),
     s=13;
-if (p.lentgh>12){
-    alert("p.lentgh+s");
+if (p>12){
+    alert("p+s");
 }
 
