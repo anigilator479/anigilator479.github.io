@@ -76,7 +76,7 @@
 // }
 
 8
-let p=prompt(""),
+let p=prompt("",14),
     s=13,
     g="p+s";
 if (p>12){
