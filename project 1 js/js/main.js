@@ -76,10 +76,11 @@
 // }
 
 8
-let p=prompt(""),
+let p=prompt("yearsOld"'yearsOld'),
     s=13;
 if (p>12){
     g="p+s";
+    console.log("g");
 }
-console.log("g");
+
 
