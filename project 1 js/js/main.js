@@ -79,6 +79,6 @@
 let p=prompt(""),
     s=13;
 if (p>12){
-    alert("p+s");
+    alert(p+s);
 }
 
