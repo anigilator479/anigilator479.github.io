@@ -76,7 +76,7 @@
 // }
 
 8
-let p=prompt(""),
+let p=prompt("14"),
     s=13;
 if (p>12){
     console.log("p+s");
