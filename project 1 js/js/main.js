@@ -77,9 +77,9 @@
 
 8
 let p=prompt(""),
-    s=13,
-    g=p+s;
+    s=13;
 if (p>12){
-    console.log("g");
+    g=p+s;
 }
+console.log("g");
 
