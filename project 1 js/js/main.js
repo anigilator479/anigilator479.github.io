@@ -76,10 +76,10 @@
 // }
 
 8
-let p=prompt("",14),
-    s=13;
+let p=Number(prompt("",14));
+    b=Number(13);
 if (p>12){
-    alert(p+s);
+    g=(p+b);
+    alert(g);
 }
-
 
