@@ -51,9 +51,9 @@
 // console.log(result);
 
 // 7
-let a = [1,2,3,4,5,6],len = a.length;
+let a = [1,2,3,4,5,6],
         result="";
-for (let i = 0; i < len; i++){ 
+for (let i = 0; i < a.length; i++){ 
     b=result+a[i] + "-";
   alert(b);
 }
