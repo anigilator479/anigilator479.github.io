@@ -33,7 +33,7 @@
 //  }
 // else if (max<=60){
 //     alert("дорослі");
-// } else if (max>=100){
+// } else if (max<=100){
 //     alert("пенсіонери");
 // }
 
@@ -58,7 +58,7 @@
 //         alert(УПС);
 //     }
 
-// 7
+7
 // let a;
 // a=Math.floor(Math.random() * 6);
 // if (a===0){
