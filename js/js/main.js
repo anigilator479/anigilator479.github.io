@@ -67,8 +67,8 @@
 
 // let heightC=10,
 //     dC=4,
-//     dC=dC/2,
-//     v=3.14 * dC**2 * heightC;
+//     rc=dC/2,
+//     v=Math.sqrt(Math.pow(rc,2)+heightC);
 //     console.log(v);
 
 
