@@ -50,13 +50,14 @@
 // }
 // console.log(result);
 
-// 7
-let a = [1,2,3,4,5,6],
-        result="";
-for (let i = 0; i < a.length; i++){ 
-    result+=a[i] + "-";
-  alert(result);
-}
+// let mass = [1, 2, 3, 4, 5, 6],
+//     str = '';
+// for (let i=0; i<mass.length; i++) {
+//     str = str + mass[i] + '-';
+// }
+// console.log(str);
+
+
 
 // 8
 // let n=1000,
