@@ -7,10 +7,10 @@
 // let a;
 // for (let i = 0; i < 11; i+=1) {
 //         if (i%2==0){
-//             console.log("Число парнe")
+//             console.log("Число парнe");
 //         }
 //         else{
-//             console.log("Число не парнe")
+//             console.log("Число не парнe");
 //         }
 // }
 // 3
@@ -22,7 +22,7 @@
 //   num += 1;
 // }
 // 4
-// let name = '';
+// let name = '',Favorite hero;
 
 // do {
 //   hero = prompt('');
@@ -36,7 +36,7 @@
 //     console.log(a[i]);
 //     result+=a[i]
 // }
-// console.log(result)
+// console.log(result);
 
 
 
@@ -51,17 +51,17 @@
 // console.log(result);
 
 // 7
-// let a = [1,2,3,4,5,6],len = a.length;
-//         result="";
-// for (let i = 0; i < len; i++){ 
-//     result+=a[i] + "-";
-//   alert(result)
-// }
+let a = [1,2,3,4,5,6],len = a.length;
+        result="";
+for (let i = 0; i < len; i++){ 
+    result+=i[a] + "-";
+  alert(result);
+}
 
-8
-let n=1000,
-    i=0;
-    for (i; n>50 ; i++){
-        n=n/2
-    }
-    alert(i)
+// 8
+// let n=1000,
+//     i=0;
+//     for (i; n>50 ; i++){
+//         n=n/2;
+//     }
+//     alert(i);
