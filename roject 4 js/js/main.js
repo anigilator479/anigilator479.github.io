@@ -54,7 +54,7 @@
 let a = [1,2,3,4,5,6],len = a.length;
         result="";
 for (let i = 0; i < len; i++){ 
-    result+=i[a] + "-";
+    result=a[i] + "-";
   alert(result);
 }
 
