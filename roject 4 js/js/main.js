@@ -22,7 +22,7 @@
 //   num += 1;
 // }
 // 4
-let name = '',Favorite hero;
+let name = '',favoriteHero;
 
 do {
   hero = prompt('');
