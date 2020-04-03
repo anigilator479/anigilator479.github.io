@@ -22,19 +22,19 @@
 //   num += 1;
 // }
 // 4
-let name = '';
+// let name = '';
 
-do {
-  hero = prompt('',"FavoriteHero");
-} while (hero.length < 6);
+// do {
+//   hero = prompt('',"FavoriteHero");
+// } while (hero.length < 6);
 
-console.log(hero);
+// console.log(hero);
 // 5
 // let a=[5,3,6,2,4],
 //     result=0;
 // for (let i = 0; i < a.length; i+=1){
 //     console.log(a[i]);
-//     result+=a[i]
+//     result+=a[i];
 // }
 // console.log(result);
 
