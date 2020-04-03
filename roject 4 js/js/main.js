@@ -22,13 +22,13 @@
 //   num += 1;
 // }
 // 4
-// let name = '',Favorite hero;
+let name = '',Favorite hero;
 
-// do {
-//   hero = prompt('');
-// } while (hero.length < 6);
+do {
+  hero = prompt('');
+} while (hero.length < 6);
 
-// console.log(hero);
+console.log(hero);
 // 5
 // let a=[5,3,6,2,4],
 //     result=0;
