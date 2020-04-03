@@ -1,9 +1,9 @@
 // 1  
     // let Arr1=[1, 5, "4", "hello"],
-    //     Arr2=[true,2, {}, ["a"], 222]
-    //     console.log(Arr1[1])
-    //     console.log(Arr2[1])
-    //     console.log(Arr1[1]+Arr2[1])
+    //     Arr2=[true,2, {}, ["a"], 222];
+    //     console.log(Arr1[1]);
+    //     console.log(Arr2[1]);
+    //     console.log(Arr1[1]+Arr2[1]);
 // 2
 // let Arr1=[1, 5, "4", "hello"];
 //     Arr1.push(22);
@@ -12,7 +12,7 @@
 // let Arr2=[true,2, {}, ["a"], 222],
 //     Arr1;
 // for (Arr1 of Arr2 ){
-//   console.log(typeOf Arr1);
+//   console.log(typeof Arr1);
 // }
 // 4
 // let result = 0;
@@ -32,7 +32,33 @@
 // 5
 // const message = 'Welcome to Ukraine!';
 // a=message.split([]);
-// console.log(a)
+// console.log(a);
 // console.log(message.indexOf('l'));
 // console.log(a.join(''));
 // 6
+// stack=[],
+// steel=[2,3,4],
+// cook=[5,6,7,8];
+
+// for(let i=0;i<steel.length;i++){
+//     stack.unshift(steel[i]);
+// }
+// for(let j=0;j<cook.length;j++){
+//     stack.push(cook[j]);
+// }
+// console.log(stack);
+//7
+// let stack=[2,3,4,5,6,7,8],
+// lastNumbers=[];
+// lastNumbers = stack.splice(4,3);
+// console.log(lastNumbers);
+//8
+// let animals = ["pig","dog","cat","parrot","chicken"],
+//     pets = [];
+// pets = animals.splice(2, 3);
+// console.log(animals);
+// console.log(pets);
+9
+let pets = ["cat","parrot","chicken"];
+pets.splice(2,1,"shark","elephant");
+console.log(pets);
