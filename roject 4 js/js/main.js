@@ -22,10 +22,10 @@
 //   num += 1;
 // }
 // 4
-let name = '',favoriteHero;
+let name = '';
 
 do {
-  hero = prompt('');
+  hero = prompt('',"FavoriteHero");
 } while (hero.length < 6);
 
 console.log(hero);
