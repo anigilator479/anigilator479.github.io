@@ -16,7 +16,7 @@
 //             alert(n - m),
 //             alert(n * m);
 // }
-// mul(2,3);
+// mul(2,3)
 // 4
 // function repeat (str,n=2){
 //     for(let i = 0; i < n; i++){
@@ -41,7 +41,7 @@
 //             return console.log(a * b);
 //         }
 //     }
-//     m(2, 3);
+//     m(2, 3)
 
 //     7
 //     function operation(m, n, o) {
@@ -60,4 +60,4 @@
 //        return addM(2);
 //     }
 
-//   addN(3);
+//   addN(3)
