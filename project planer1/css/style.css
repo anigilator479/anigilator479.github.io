@@ -1,6 +1,6 @@
 .Title{ 
     display: block;
-    margin-top: 106px;
+    margin-top: 60px;
 }
 .linee{
     width: 100px;
@@ -69,10 +69,13 @@ display: flex;
   width:280px;
 }
 .img{
+    margin: 0px 16px 10px 0px;
     height: 35px;
     width: 35px;
 }
-
+.kolya{
+    margin-bottom: 10px;
+}
 
 .mogo {
     font-size: 25px;
@@ -151,24 +154,34 @@ font-size: 28px;
 .navigation:hover {
     color: #FED135;
     transition: 0.3s;
-}
-.line1{
+} 
+
+.navigation:hover{
     display: flex;
-    width: 100px;
-    height: 1px;
-    background-color: #FED135;
-    border: 1px solid #FED135;
 }
 
-.list {
+.list  {
     display: flex;
     flex-direction: column;
 }
-
+.father{
+    display: flex;
+    justify-content: center;
+}
+.add{
+    margin-top: 60px;
+    width: 175px;
+    height: 45px;
+    background: #FED135;
+    font-weight: bolder;
+    border-radius: 10px;
+    
+}
 .drop-down-list {
     padding: 10px 0px 0px 0px;
     display: flex;
     flex-direction: column;
+    display: none;
 }
 .data{
     display: flex;
